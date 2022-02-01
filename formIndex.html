@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <!--E-mail-->
+  <!--Password-->
+  <!--GitHub Username-->
+  <!--Radio buttons with the following options: Enterprise, Pro, Free-->
+  <!--Checkbox with the words "Remember Me" next to it-->
+  <body>
+    <div>
+      <h2>Team Sign-up Form</h2>
+    </div>
+
+    <div>
+      <div>
+        <label for="email">Please enter your E-mail Address:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <br>
+
+      <div>
+        <label for="password">Please enter a Password with a minimum of 8 characters:</label>
+        <br>
+        <input type="password" id="password" name="password" minlength="8" required>
+      </div>
+      <br>
+
+      <div>
+        <label for="githubusername">Please enter your GitHub Username:</label>
+        <br>
+        <input type="text" id="githubusername" name="username" required>
+      </div>
+      <br>
+
+      <div>
+        <p>Please select version of Visual Studio that you use:</p>
+        <input type="radio" id="Enterprise" name="version" value="Enterprise">
+        <label for="Enterprise">Enterprise</label>
+        <br>
+        <input type="radio" id="Pro" name="version" value="Pro">
+        <label for="Pro">Pro</label>
+        <br>
+        <input type="radio" id="Free" name="version" value="Free">
+        <label for="Free">Free</label>
+      </div>
+      <br>
+      <div>
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember Me?</label>
+      </div>
+      <br>
+
+      <div>
+        <input type="submit" value="Submit Form?">
+      </div>
+    </div>
+  </body>
+</html>
